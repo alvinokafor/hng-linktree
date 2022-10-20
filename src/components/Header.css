@@ -6,27 +6,21 @@ header {
 }
 
 
-.profile-img {
+#profile-img {
     width: 88px;
     height: 88px;
     margin-inline: auto;
     margin-bottom: 24px;
 }
 
-.share {
-    right: 352px;
-    bottom: 112px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: 1px dashed #D0D5DD;
+#profile-img img{
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-size: cover;
 }
 
-.share img {
-    width: 15.19px;
-    height: 14.02px;
+#slack {
+    display: none;
 }
+

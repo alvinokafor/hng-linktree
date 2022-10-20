@@ -20,3 +20,13 @@ footer {
 footer p {
     color: #98A2B3;
 }
+
+@media (max-width: 720px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .zuri-logo, footer p {
+        margin-bottom: 24px;
+    }
+}

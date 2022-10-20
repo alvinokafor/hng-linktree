@@ -1,9 +1,11 @@
-import './Button.css';
+import "./Button.css";
 
-const Button = () => {
-    return (
-        <button>Twitter Link</button>
-    )
-}
+const Button = ({ text, link, id }) => {
+  return (
+    <a href={link}>
+      <button id={id}>{text}</button>
+    </a>
+  );
+};
 
 export default Button;

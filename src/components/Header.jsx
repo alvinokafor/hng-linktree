@@ -1,21 +1,19 @@
-import Profile from "../assets/profile.png";
-import Share from "../assets/share.svg";
+import Profile from "../assets/alvin-profile.jpeg";
+
 import "./Header.css";
 
 const Header = () => {
   return (
     <header>
       <section className="header-content">
-        <div className="profile-img">
+        <div id="profile-img">
           <img src={Profile} alt="profile" />
         </div>
 
-        <h3>Annette Black</h3>
-      </section>
+        <h3 id='twitter'>retrosearth</h3>
 
-      <div className="share">
-        <img src={Share} alt="share icon" />
-      </div>
+        <h4 id='slack'>Alvin Okafor</h4>
+      </section>
     </header>
   );
 };
