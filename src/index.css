@@ -20,3 +20,21 @@ img {
 .btn-section {
   text-align: center;
 }
+
+.logo-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.git-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.slack-logo {
+  width: 46px;
+  height: 46px;
+  margin-right: 24px;
+}
