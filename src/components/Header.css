@@ -1,0 +1,32 @@
+header {
+    position: relative;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 56px;
+}
+
+
+.profile-img {
+    width: 88px;
+    height: 88px;
+    margin-inline: auto;
+    margin-bottom: 24px;
+}
+
+.share {
+    right: 352px;
+    bottom: 112px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share img {
+    width: 15.19px;
+    height: 14.02px;
+}
