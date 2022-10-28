@@ -6,14 +6,14 @@ header {
 }
 
 
-#profile-img {
+.profile-img {
     width: 88px;
     height: 88px;
     margin-inline: auto;
     margin-bottom: 24px;
 }
 
-#profile-img img{
+.profile-img img{
     width: 88px;
     height: 88px;
     border-radius: 50%;

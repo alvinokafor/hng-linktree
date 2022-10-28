@@ -10,7 +10,7 @@ function App() {
     {
       text: 'Twitter Link',
       link: 'https://twitter.com/retrosearth/',
-      id: 'twitter__link'
+      id: 'twitter'
     },
 
     {
@@ -27,7 +27,7 @@ function App() {
 
     {
       text: 'Python Books',
-      link: 'https://books.zuri.team/python-for-beginners?ref_id=<alvinokafor>',
+      link: 'https://books.zuri.team/python-for-beginners?ref_id=alvinokafor',
       id: 'book__python'
     },
 
